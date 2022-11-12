@@ -14,4 +14,4 @@ console.log(variavel);
 variavel = 10-10;
 console.log(variavel);
 //---------------------------------------------------------
-//10:25 min
+// 
