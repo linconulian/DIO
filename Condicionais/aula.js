@@ -1,10 +1,10 @@
 //Verificação de número par / ímpar
 
-const numero = 10;
+const numero = 7522;
 
 const numeroPar = numero % 2;
 
-console.log(numeroPar)
+
 
 if(numeroPar==0){
     console.log(`O numero ${numero} é par`);
