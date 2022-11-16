@@ -1,4 +1,4 @@
-//Verificação de número par
+//Verificação de número par / ímpar
 
 const numero = 10;
 
@@ -11,3 +11,4 @@ if(numeroPar==0){
 }else{
     console.log(`O numero ${numero} é impar`);
 }
+
