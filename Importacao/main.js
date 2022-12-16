@@ -1,8 +1,4 @@
 
-const funcoes = require('./importacao')
-
-console.log(funcoes.gets());
-
 //Uma sala tem 5 alunos e para cada aluno foi sorteado um numero de 1-100
 //Faça um programa que receba os 5 numeros sorteados para os alunos e mostre o maior
 
@@ -16,3 +12,6 @@ console.log(funcoes.gets());
 
 // Saída:
 // 98
+
+
+const { gets, print } = require('./importacao')
