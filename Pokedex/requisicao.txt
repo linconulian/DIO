@@ -1,0 +1,9 @@
+Uma requisição http é composta por uma url, domínio e um tipo de requisição
+Os tipos de requisição podem ser GET, POST, PUT, DELETE.
+
+URL: Endereço/path. Exemplo: https://PokeAPI.co{endereço}/api/v2/pokemon {path}
+
+GET: Busca o recurso na url
+POST: inserção na url
+PUT: atualizar um existente
+DELETE: tirar um existente
