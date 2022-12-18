@@ -21,7 +21,8 @@
     color: #fff;
     display: flex;
     flex-direction: column; 
-    margin-bottom: 1rem; 
+    margin-bottom: 1rem;
+    margin-right: 1rem; 
 }
 .pokemon .detail {
     display: flex;

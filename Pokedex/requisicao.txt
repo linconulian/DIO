@@ -1,9 +1,28 @@
 Uma requisição http é composta por uma url, domínio e um tipo de requisição
 Os tipos de requisição podem ser GET, POST, PUT, DELETE.
 
-URL: Endereço/path. Exemplo: https://PokeAPI.co{endereço}/api/v2/pokemon {path}
+URL: Endereço/path. Exemplo: https://PokeAPI.co{endereço}/api/v2/pokemon/1 {path}
 
 GET: Busca o recurso na url
 POST: inserção na url
 PUT: atualizar um existente
 DELETE: tirar um existente
+
+Query string: Descrição de busca, busca todos na lista com o status desejado
+sintaxe: ?type=grass no path, por exemplo:
+notação "q" na query string define grau de prioridade
+
+
+pokeapi.co/api/v2/pokemon?type=grass&&name=i : Busca todos do tipo grass que tenham "i" no nome
+
+Request Headers
+    Configuração da request, o que aceito 
+
+Body: Via de regra, GET é raro usar body, porém o POST faz sentido. É um corpo de informação
+
+Status code: Mostra o status da requisição, se foi ou não processada (200-299 sucesso, 300-399 redirect, 400-499 erro por parte do client)
+
+Response Headers
+    Configuração da resposta do server, o que recebo
+Response Body
+    Corpo da resposta da requisição solicitada
