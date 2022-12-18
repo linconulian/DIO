@@ -16,6 +16,7 @@ body{
     background-color: #fff;
     height: 100vw;
     width: 100vw;
+    margin-bottom: 5rem;
 
 }
 @media screen and (min-width: 992px) {

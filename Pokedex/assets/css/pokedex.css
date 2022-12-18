@@ -20,7 +20,8 @@
     border-radius: 1rem;
     color: #fff;
     display: flex;
-    flex-direction: column;  
+    flex-direction: column; 
+    margin-bottom: 1rem; 
 }
 .pokemon .detail {
     display: flex;
